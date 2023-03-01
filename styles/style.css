@@ -1,0 +1,126 @@
+html {
+    background: #302034;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Roboto', cursive;
+}
+
+.conteudo {
+    padding: 10vh 3em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.principal {
+    border: 1px solid #999100;
+    flex-grow: 1;
+    flex-basis: auto;
+    width: 50%;
+    height: 80%;
+    padding: 4em 2em 2em;
+    box-sizing: border-box;
+    display: flex;
+    background: #005F14;
+    border-radius: 40px;
+    gap: 2em;
+}
+
+.logo{
+    color: #F80046;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.adicionar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adicionar input {
+    margin-top: 2em;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 50px;
+    border: 2px solid #999100;
+    font-size: 20px;
+}
+
+.adicionar label {
+    display: block;
+    color: #FF8000;
+    font-size: 25px;
+}
+
+.cadastrar {
+    margin-top: 1em;
+    background-color: #F80046;
+    color: #005F14;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.cadastrar:hover{
+    background-color: #999100;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    color: #302034;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: #F80046;
+    font-weight: 400;
+}
+
+button{
+    border: none;
+    background-color: #ffff;
+    font-size: 20px;
+    display: flex;
+}
+
+@media screen and (min-width: 300px){
+    .logo{
+        text-align: center;
+        font-size: 15px;
+    }
+    .principal{
+        width: 100%;
+        height: 50%;
+    }
+}
+
